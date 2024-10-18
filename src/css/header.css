@@ -237,3 +237,9 @@
     width: 123px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .mobile-menu-backdrop {
+    display: none;
+  }
+}
