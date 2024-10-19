@@ -131,6 +131,7 @@
 .social-list {
     display: flex;
     min-width: 335px;
+    gap: 16px;
 }
 .order-social-link {
     font-weight: 600;
@@ -142,7 +143,7 @@
 } 
 .social-list .order-social-link::after {
     content: '/';
-    /* margin-left: 8px; */
+    margin-left: 8px; 
 }
 .social-list .order-social-link:last-child::after {
     content: '';
@@ -213,6 +214,9 @@
         line-height: 1.11;
         margin-bottom: 15px;
     }
+    .social-list {
+        gap: 24px;
+    }
     .social-list .order-social-link::after {
         margin-left: 12px;
     }
@@ -237,6 +241,3 @@
         width: 427px;
     }
 }
-
-
-
