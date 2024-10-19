@@ -1,48 +1,44 @@
 <section class="your-order">
     <div class="container your-order-box">
-        <div class="order-desc">
-            <h2 class="order-title">Fresh <span class="order-title-accent">Harvest</span> Box has got you covered</h2>
-            <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        </div> 
-        <div class="user-coments">
-              <p class="user-coments-text">Ordering <span class="coments-text-first">from us</span> is quick and easy! Fill out <span class="coments-text-second">the form</span> below and we will contact you !</p>
-              <form class="user-coments-form">
-                <lable class="user-coments-lable">
-                    <input class="user-coments-field"
-                           type="password"
-                           minlenght="3"
-                           maxlenght=""
+        <h2 class="order-title">Fresh <span class="order-title-accent">Harvest</span> Box has got you covered</h2>
+        <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        <div class="coments-social-box">
+            <div class="user-coments">
+                <p class="user-coments-text">Ordering <span class="coments-text-first">from us</span> is quick and easy! Fill out <span class="coments-text-second">the form</span> below and we will contact you !</p>
+                <form class="user-coments-form">
+                    <div class="inp-wrapper">
+                        <input class="user-coments-field"
+                           type="text"
                            name="username"
                            placeholder="Full Name"
-                           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                           title="enter correct data"
+                           pattern="[A-Za-z\s]{3,20}"
                            autofocus
                            required >
-                </lable>
-                <lable class="user-coments-lable">
-                    <input class="user-coments-field" 
+                        <input class="user-coments-field" 
                            type="email" 
                            name="user-email"
                            placeholder="Email"
                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                            title="enter correct data"
                            required >
-                </lable>
-                <textarea class="user-message" 
-                          name="user-comment" 
-                          placeholder="Comment">Comment</textarea>
-            </form>
-            <button class="contacts-btn" type="submit">Send</button>
-        </div>
-        <div class="order-social">
-            <picture>
-                <source srcset="/img/your-order/order-desktop.png 1x, /img/your-order/order-desktop@2x.png 2x" media (min-width: 1158px)>
+                           <p class="text-valid hidden">Succes!</p>
+                           <p class="text-invalid hidden">Invalid email, try again</p>
+                        <textarea class="user-message" 
+                            name="user-comment" 
+                            placeholder="Comment">Comment</textarea>
+                    </div>
+                    <button class="contacts-btn" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="order-social">
+              <picture>
+                <source srcset="/img/your-order/order-desktop.png 1x, /img/your-order/order-desktop@2x.png 2x" media (min-width: 1280px)>
                 <source srcset="/img/your-order/order-tablet.png 1x, /img/your-order/order-tablet@2x.png 2x" media (min-width: 768px)>
                 <source srcset="/img/your-order/order-mobile.png 1x, /img/your-order/order-mobile@2x.png 2x" media (max-width: 767px)>
                 <img class="order-social-pic" src="/img//your-order/order-mobile.png" alt="Make fresh fruit juice">
-            </picture>
-            <p class="social-text">Follow us on our social networks:</p>
-            <ul class="social-list">
+              </picture>
+              <p class="social-text ">Follow us on our social networks:</p>
+              <ul class="social-list">
                 <li class="social-item">
                     <a class="order-social-link" href="https://www.instagram.com/goitclub/" target="_blank">instagram / </a> 
                 </li>
@@ -52,6 +48,8 @@
                 <li class="social-item">
                     <a class="order-social-link" href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
                 </li>
-            </ul>
+              </ul>
+           </div>
         </div>
+    </div>
 </section>
