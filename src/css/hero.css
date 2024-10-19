@@ -1,5 +1,7 @@
 /* hero */
 .hero-section {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #576F35;
     max-width: 375px;
     background-image: url(../img/hero/hero-bg-mobile.jpg);
@@ -35,6 +37,7 @@
     font-size: 14px;
     line-height: 129%;
     color: #fbfbfb;
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
