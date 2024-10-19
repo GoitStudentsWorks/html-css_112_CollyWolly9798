@@ -1,8 +1,5 @@
 /* how it works  */
-.container
-{
-padding: 0;
-}
+
 ol
 {
 counter-reset: section;
@@ -20,13 +17,13 @@ align-items: center;
 }
 .how-its-works_img
 {
-/* width: 375px; */
+width: 375px;
 padding: 40px 20px;
 background-color: #7A3145;
 }
 .how-its-works-descr
 {
-/* width: 375px; */
+width: 375px;
 padding: 80px 20px;
 background-color: #576F35;
 }
@@ -81,6 +78,8 @@ background-color: #7A3145;
 border: 5px solid #D5BFC5;
 padding: 11px;
 text-align: center;
+min-width: 52px;
+height: 52px;
 }
 .p
 {
@@ -100,12 +99,12 @@ color: rgba(20, 20, 20, 1);
 {
     .how-its-works_img
     {
-    /* width: 768px; */
+    width: 768px;
     padding: 100px 64px;
     }
     .how-its-works-descr
     {
-    /* width: 769px; */
+    width: 768px;
     padding: 100px 159px;
     }
     .how-it-works-text
@@ -131,10 +130,6 @@ color: rgba(20, 20, 20, 1);
 }
 @media screen and (min-width: 1280px)
 {
-    .container
-    {
-    padding: 0;
-    }
     .how-it-works
     {
     flex-direction: row;
