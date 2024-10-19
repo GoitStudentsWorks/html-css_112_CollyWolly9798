@@ -1,4 +1,7 @@
-/* how it works  */
+.how_its_works >.container
+{
+padding: 0;
+}
 
 ol
 {
