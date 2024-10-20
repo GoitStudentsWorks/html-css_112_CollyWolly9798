@@ -83,11 +83,9 @@
 }
 .user-coments-field:not(:placeholder-shown):valid {
     border-color: #3cbc81;
-    background-color: #fbfbfb;
 }
 .user-coments-field:not(:placeholder-shown):invalid {
     border-color: #e74a3b;
-    background-color: #fbfbfb;
 }
 .text-valid {
     display: none;
@@ -140,7 +138,6 @@
 .social-list {
     display: flex;
     flex-wrap :wrap ;
-    gap: 16px;
 }
 .order-social-link {
     font-weight: 600;
@@ -150,14 +147,13 @@
     color: #fbfbfb;
     display: inline-block;
 }
-.order-social-link::after {
+.social-item:not(:last-child)::after {
     content: '/';
     margin: 0 8px;
-    color: currentColor; 
-}
-.order-social-link:last-child::after {
-    content: '';
-}
+    color: #fbfbfb;
+    font-size: 24px;
+    font-weight: 600;
+} 
 
 @media screen and (min-width: 768px) {
     .your-order-box {
@@ -220,10 +216,7 @@
         line-height: 1.11;
         margin-bottom: 15px;
     }
-    .social-list {
-        gap: 24px;
-    }
-    .order-social-link::after {
+    .social-item:not(:last-child)::after {
         margin: 0 12px;
     }
 }
@@ -250,3 +243,4 @@
         width: 427px;
     }
 }
+
