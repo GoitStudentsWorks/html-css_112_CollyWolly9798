@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #576F35;
-    max-width: 375px;
+    max-width: 100%;
     background-image: url(../img/hero/hero-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-size: 375px, 370px;
@@ -19,11 +19,6 @@
                 background-image: url(../img/hero/hero-bg-mobile@2x.jpg)
             }
         }
-}
-
-.hero-container {
-    width: 100%;
-  
 }
 
 .hero-name {
