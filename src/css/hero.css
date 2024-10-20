@@ -71,7 +71,7 @@
 @media only screen and (min-width: 1280px) {
     .hero-section {
        background-image: url(../img/hero/hero-bg-desktop.jpg);
-       background-position: right top;
+       background-position: 630px 0px;
        background-size: 650px, 800px;
        max-width: 100%;
        height: 650px;
