@@ -88,11 +88,13 @@
   }
 
   .reviews-title {
+    line-height: 1;
     max-width: 553px;
     margin-bottom: 25px;
   }
 
   .reviews-desc {
+    line-height: 1.25;
     max-width: 553px;
     margin-bottom: 50px;
   }
