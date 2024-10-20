@@ -220,6 +220,8 @@
         margin: 0 12px;
     }
 }
+
+
 @media screen and (min-width: 1280px) {
     .your-order-box {
         padding: 100px 0;

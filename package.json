@@ -12,12 +12,15 @@
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
-    "vite": "^5.4.6"
+    "vite": "^5.4.9"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "description": "project https://www.figma.com/design/6vPiNBnWwh1aonYZ9UrP5z/GreenHarvest-(Copy)?node-id=0-1&node-type=canvas&t=IE5tS4F1B4yKhJq5-0",
+  "main": "vite.config.js",
+  "keywords": []
 }
