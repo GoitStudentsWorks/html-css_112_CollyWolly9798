@@ -19,29 +19,39 @@
       </p>
       <form class="user-coments-form">
         <div class="inp-wrapper">
-          <label for="user-fullname" class="visually-hidden">Full name</label>
-          <input
-            id="user-fullname"
-            class="user-coments-field"
-            type="text"
-            name="username"
-            placeholder="Full Name"
-            pattern="[A-Za-z\s]{3,20}"
-            required
-          />
-          <label for="user-mail" class="visually-hidden">Email</label>
-          <input
-            id="user-mail"
-            class="user-coments-field"
-            type="email"
-            name="user-email"
-            placeholder="Email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            title="enter correct data"
-            required
-          />
-          <p class="text-valid">Succes!</p>
-          <p class="text-invalid">Invalid email, try again</p>
+          <div class="inp-wrapper-username">
+            <label class="visually-hidden" for="fullname"></label>
+            <input
+              class="user-coments-field"
+              id="fullname"
+              type="text"
+              name="username"
+              placeholder="Full Name"
+              pattern="[A-Za-z\s]{3,20}"
+              required
+            />
+            <p class="text-valid inp-wrapper-username-text">Succes!</p>
+            <p class="text-invalid inp-wrapper-username-text">
+              Invalid username, try again
+            </p>
+          </div>
+          <div class="inp-wrapper-email">
+            <label class="visually-hidden" for="user-mail"></label>
+            <input
+              class="user-coments-field"
+              id="user-mail"
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="enter correct data"
+              required
+            />
+            <p class="text-valid inp-wrapper-email-text">Succes!</p>
+            <p class="text-invalid inp-wrapper-email-text">
+              Invalid email, try again
+            </p>
+          </div>
           <textarea
             class="user-message"
             name="user-comment"
@@ -55,28 +65,28 @@
       <picture>
         <source
           srcset="
-            /img/your-order/order-desktop.png    1x,
-            /img/your-order/order-desktop@2x.png 2x
+            /img/your-order/order-desktop.webp    1x,
+            /img/your-order/order-desktop@2x.webp 2x
           "
           media="(min-width: 1280px)"
         />
         <source
           srcset="
-            /img/your-order/order-tablet.png    1x,
-            /img/your-order/order-tablet@2x.png 2x
+            /img/your-order/order-tablet.webp    1x,
+            /img/your-order/order-tablet@2x.webp 2x
           "
           media="(min-width: 768px)"
         />
         <source
           srcset="
-            /img/your-order/order-mobile.png    1x,
-            /img/your-order/order-mobile@2x.png 2x
+            /img/your-order/order-mobile.webp    1x,
+            /img/your-order/order-mobile@2x.webp 2x
           "
           media="(max-width: 767px)"
         />
         <img
           class="order-social-pic"
-          src="/img//your-order/order-mobile.png"
+          src="/img//your-order/order-mobile.webp"
           alt="Make fresh fruit juice"
         />
       </picture>
