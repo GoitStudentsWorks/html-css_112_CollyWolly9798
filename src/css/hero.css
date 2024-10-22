@@ -1,10 +1,10 @@
 /* hero */
 
 .hero-section {
-    
+
     background-color: #576F35;
     max-width: 100%;
-    background-image: url(../img/hero/hero-bg-mobile.jpg);
+    background-image: url(/img/hero/hero-bg-mobile.webp);
     background-repeat: no-repeat;
     background-size: 375px, 370px;
     background-position: bottom;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 375px) and (min-resolution: 192dpi) {
     .hero-section {
-        background-image: url(../img/hero/hero-bg-mobile@2x.jpg)
+        background-image: url(/img/hero/hero-bg-mobile@2x.webp)
     }
 }
 
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 768px) {
     .hero-section {
-        background-image: url(../img/hero/hero-bg-tablet.jpg);
+        background-image: url(/img/hero/hero-bg-tablet.webp);
         background-size: 768px, 539px;
         padding-top: 122px;
         padding-bottom: 589px;
@@ -66,13 +66,13 @@
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero-section {
-        background-image: url(../img/hero/hero-bg-tablet@2x.jpg)
+        background-image: url(/img/hero/hero-bg-tablet@2x.webp)
     }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-section {
-       background-image: url(../img/hero/hero-bg-desktop.jpg);
+       background-image: url(/img/hero/hero-bg-desktop.webp);
        background-position: right;
        background-size: 50% auto;
        padding-top: 238px;
@@ -98,6 +98,6 @@
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
     .hero-section {
-        background-image: url(../img/hero/hero-bg-desktop@2x.jpg)
+        background-image: url(/img/hero/hero-bg-desktop@2x.webp)
     }
 }
