@@ -56,7 +56,7 @@
     position: absolute;
     bottom: -2px;
     left: 16px;
-} 
+}
 .user-coments-field {
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 30px;
@@ -162,7 +162,7 @@
     display: inline-block;
     transition: transform 250ms cubic-bezier(.15,.8,.76,.28),
     font-size 250ms cubic-bezier(.15,.8,.76,.28);
-    
+
 }
 .order-social-link:hover,
 .order-social-link:focus {
@@ -175,7 +175,7 @@
     color: #fbfbfb;
     font-size: 24px;
     font-weight: 600;
-} 
+}
 @media screen and (min-width: 768px) {
     .your-order {
         padding-top: 100px;
@@ -240,6 +240,16 @@
     .social-item:not(:last-child)::after {
         margin: 0 12px;
     }
+
+    .order-social-link {
+      font-size: 32px;
+      line-height: 1;
+    }
+
+        .order-social-link:hover,
+        .order-social-link:focus {
+          font-size: 34px;
+        }
 }
 @media screen and (min-width: 1280px) {
     .your-order-box {
