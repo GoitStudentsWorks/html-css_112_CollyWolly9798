@@ -54,7 +54,7 @@
 .inp-wrapper-username-text,
 .inp-wrapper-email-text {
     position: absolute;
-    bottom: 2px;
+    bottom: -2px;
     left: 16px;
 }
 .user-coments-field {
@@ -160,10 +160,13 @@
     letter-spacing: -0.01em;
     color: #fbfbfb;
     display: inline-block;
-    transition: transform 250ms cubic-bezier(.15,.8,.76,.28);
+    transition: transform 250ms cubic-bezier(.15,.8,.76,.28),
+    font-size 250ms cubic-bezier(.15,.8,.76,.28);
+    
 }
 .order-social-link:hover,
 .order-social-link:focus {
+    font-size: 26px;
     transform: scale(1,1);
 }
 .social-item:not(:last-child)::after {
