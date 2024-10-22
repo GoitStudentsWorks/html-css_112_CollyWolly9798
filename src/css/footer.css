@@ -1,8 +1,3 @@
-.footer-container
-{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .footer-content-wrapper
 {
@@ -14,6 +9,8 @@
 
 .section-footer
 {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #7a3145;
 }
 
@@ -106,7 +103,7 @@
 
 @media screen and (min-width: 768px)
 {
-    .footer-container
+    .section-footer
     {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -149,6 +146,12 @@
     .footer-section-link
     {
         font-size: 32px;
+        transition: transform 250ms ease-in-out;
+    }
+
+    .footer-section-link:hover, .footer-section-link:focus
+    {
+        transform: scale(1.1);
     }
 
     .footer-links-wrapper
@@ -159,6 +162,12 @@
     .footer-contacts-tel
     {
         margin-bottom: 25px;
+        transition: transform 250ms ease-in-out;
+    }
+
+    .footer-contacts-tel:hover, .footer-contacts-tel:focus
+    {
+        transform: scale(1.1);
     }
 
     .footer-contacts-tel, .footer-contacts-address
@@ -177,6 +186,16 @@
         line-height: 1.11;
         font-size: 18px;
     }
+
+    .footer-privacy-link
+    {
+        transition: color 250ms ease-in-out;
+    }
+
+    .footer-privacy-link:hover, .footer-privacy-link:focus
+    {
+        color: #fbfbfb;
+    }
 }
 
 @media screen and (min-width: 1280px)
@@ -185,7 +204,7 @@
     {
         width: 1080px;
     }
-    .footer-container
+    .section-footer
     {
         padding-top: 50px;
         padding-bottom: 50px;
