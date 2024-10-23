@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/CodeBusters/",
+    "build": "vite build --base=/codebusters/",
     "preview": "vite preview"
   },
   "devDependencies": {
